@@ -4,7 +4,7 @@ assume cs:code
 main proc far 
 mov ax, 1
 mov bx, 0
-mov cx, 3
+mov cx, 5
 call mul_proc
 mov ax, 4c00h
 int 21h
